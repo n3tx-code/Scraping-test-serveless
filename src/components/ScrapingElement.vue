@@ -123,4 +123,17 @@ export default {
   background: #c51c1c;
   color: #fff;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.running .scraping-element-icon {
+  animation: rotation 1.3s linear infinite;
+}
 </style>
